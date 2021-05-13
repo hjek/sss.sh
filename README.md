@@ -7,3 +7,7 @@ Clone this repo and run these command in the source code directory:
 - Create Debian package: `make shartphone.deb`
 - Install package: `sudo dpkg -i shartphone.deb`
 - Start Shartphone: `shartphone`
+
+## License
+[GNU AGPLv3 or later](./COPYING.md)  
+© Pelle Hjek 2021  
