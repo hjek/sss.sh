@@ -134,7 +134,7 @@ link_menu -->
 about_menu -->
   html(details([
     summary('about'),
-    p("this is siglog. free/libre software for using signal without a smartphone. built on top of signal-cli using swi-prolog.")
+    p("this is shartphone. free/libre software for using signal without a smartphone. built on top of signal-cli using swi-prolog.")
     ])).
 
 root_handler(Request) :-
@@ -145,9 +145,9 @@ root_handler(Request) :-
   http_parameters(
     Request,
     [err(Err, [default("")])]),
-  reply_html_page([title(siglog), link([rel(stylesheet),href('/style.css')])],
+  reply_html_page([title(shartphone), link([rel(stylesheet),href('/style.css')])],
     [
-    center(h1(siglog)),
+    center(h1(shartphone)),
     pre(Err),
     p(\user_menu),
     p(\message_menu),
@@ -157,7 +157,7 @@ root_handler(Request) :-
     ]).
 
 root_handler(_Request):-
-  throw(http_reply(forbidden('siglog'))).
+  throw(http_reply(forbidden('shartphone'))).
 
 
 register_handler(Request) :-
@@ -212,7 +212,7 @@ join_group_handler(Request) :-
   http_redirect(see_other, Then, Request).
 
 style_handler(_Request) :-
-  style(siglog,Style),
+  style(shartphone,Style),
   format('Content-type: text/css~n~n'),
   format(Style).
 

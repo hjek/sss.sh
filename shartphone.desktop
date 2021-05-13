@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Siglog (Private window)
-Exec=siglog-private
+Name=Shartphone
+Exec=shartphone
 Icon=phone
 Type=Application
 Categories=Network;InstantMessaging;Chat;

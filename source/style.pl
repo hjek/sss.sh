@@ -1,6 +1,6 @@
 :- module(style, [style/2]).
 
-style(siglog,Style) :-
+style(shartphone,Style) :-
   Style = "
 
 

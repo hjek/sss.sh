@@ -1,12 +1,12 @@
-Package: siglog
-Source: siglog
+Package: shartphone
+Source: shartphone
 Version: 0.0.1
 Section: Communication
 Priority: optional
 Architecture: amd64
 Essential: no
 Installed-Size: 532K
-Homepage: https://github.com/hjek/siglog
+Homepage: https://github.com/hjek/shartphone
 Maintainer: Pelle Hjek <hjek@member.fsf.org>
 Build-Depends: make, lintian, tar, curl, sudo, swi-prolog 
 Depends: swi-prolog, java-runtime, libc6-i386
