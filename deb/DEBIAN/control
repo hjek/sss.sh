@@ -1,0 +1,16 @@
+Package: siglog
+Source: siglog
+Version: 0.0.1
+Section: Communication
+Priority: optional
+Architecture: amd64
+Essential: no
+Installed-Size: 532K
+Homepage: https://github.com/hjek/siglog
+Maintainer: Pelle Hjek <hjek@member.fsf.org>
+Build-Depends: make, lintian, tar, curl, sudo, swi-prolog 
+Depends: swi-prolog, java-runtime, libc6-i386
+Recommends: signal-cli, zbar-tools, fonts-noto-color-emoji, fonts-mononoki
+Suggests: signal-desktop, signal-desktop-beta, links2
+Description: Signal without a smartphone 
+ Web interface to signal-cli.
